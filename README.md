@@ -1,4 +1,5 @@
-# imoney-react-swtich
+# imoney-react-switch
+![-1](https://cloud.githubusercontent.com/assets/1193966/25661681/26387524-3044-11e7-96db-dcab1fd9e061.png)
 
 ## Browser support
 
@@ -9,8 +10,10 @@ IE9+
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Switch from "imoney-react-swtich";
-import "imoney-react-swtich/src/index.css";
+import Switch from "imoney-react-switch
+";
+import "imoney-react-switch
+/src/index.css";
 ```
 
 ```js

@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import "./switch.css";
 class Switch extends React.Component {
     constructor(props) {
         super(props);
