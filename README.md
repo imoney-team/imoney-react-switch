@@ -10,10 +10,8 @@ IE9+
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Switch from "imoney-react-switch
-";
-import "imoney-react-switch
-/src/index.css";
+import Switch from "imoney-react-switch";
+import "imoney-react-switch/src/index.css";
 ```
 
 ```js
