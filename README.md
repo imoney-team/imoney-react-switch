@@ -4,6 +4,9 @@
 ## Browser support
 
 IE9+
+## Installation
+
+    npm i imoney-react-switch
 
 ## Usage
 
