@@ -18,18 +18,30 @@ import "imoney-react-switch/src/index.css";
 ```
 
 ```js
-let App = React.createClass({
-    changeState(e,checked){
+class App extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            checked: true
+        };
+        this.changeState = this.changeState.bind(this);
+    }
+
+    changeState(e, checked) {
         e.stopPropagation();
-    },
-    render () {
+        this.setState({
+            checked: checked
+        });
+    }
+
+    render() {
         return (
             <div>
-                <Switch onChange={this.changeState} checked={true}/>
+                <Switch onChange={this.changeState} checked={this.state.checked}/>
             </div>
-        )
+        );
     }
-});
+}
 ReactDOM.render(
     <App />,
     document.getElementById('app')

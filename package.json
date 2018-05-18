@@ -1,10 +1,12 @@
 {
   "name": "imoney-react-switch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "状态切换组件",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "build:dev": "babel src -w -d lib"
   },
   "author": "stormtea123",
   "license": "ISC",
@@ -19,8 +21,13 @@
     "url": "https://github.com/stormtea123/imoney-react-switch/issues"
   },
   "homepage": "https://github.com/stormtea123/imoney-react-switch#readme",
-    "dependencies": {
+  "peerDependencies": {
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
   }
 }
